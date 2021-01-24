@@ -6,10 +6,12 @@
 
 编辑器使用 sublime text3。
 
-然后再html文件的head里插入如下代码即可使用了:
+然后再html文件的head里插入如下代码即可使用了:（先jq,再CSS，最后为JS）
 
 ```
-<link rel="stylesheet" href="styles/bootstrap.min.css">
+<script src="https://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
+<link href="https://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+<script src="https://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
 ```
 
 **2-1标题** 
